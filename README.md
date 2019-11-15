@@ -1,10 +1,18 @@
 # FUNDAMENTALS-OF-DATA-ANALYSIS-Project-2019
 Programme Outline and Tasks: Tips Project
 
+#### Importing the Dataset into Jupyter
+To import a dataset into Jupyter, there are two main methods: 
+
+Through uploading the data to your Jupyter notebook and call the data from a folder inside your respository
+
+Through an url using the command = df = pd.read_csv ("url") and calling the df command after. This enables you to directly acccess the code for its original source. The data must be in its raw state to be imported. 
+
 To do: 
 
- To Download and import: 
-    Tips Dataset
+To Download and import: 
+    Tips Dataset - done 
+ 
 Python Packages
     Seaborn
     Jupyter
