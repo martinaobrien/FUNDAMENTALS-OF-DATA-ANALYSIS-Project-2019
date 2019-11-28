@@ -1,50 +1,77 @@
-# FUNDAMENTALS-OF-DATA-ANALYSIS-Project-2019
-Programme Outline and Tasks: Tips Project
+# Investigation in the Tips Dataset:
 
-#### Importing the Dataset into Jupyter
-To import a dataset into Jupyter, there are two main methods: 
+## An Investigation in the Tips Dataset, submitted as part of the course requirements for Fundamentals of Data Analytics for GMIT Higher Diploma in Data Analysis 2019 - 2020.
 
-Through uploading the data to your Jupyter notebook and call the data from a folder inside your respository
 
-Through an url using the command = df = pd.read_csv ("url") and calling the df command after. This enables you to directly acccess the code for its original source. The data must be in its raw state to be imported. 
+#### Background to the Project:
 
-To do: 
+This repository is submitted as part of the requirements for the Fundamentals of Data Analytics module with GMIT’s Higher Diploma for Data Analytics. The repository provides an overview, descriptive statistics, in-depth and regression analysis on the tips dataset using the Seaborn and Jupyter packages.
 
-To Download and import: 
-    Tips Dataset - done 
- 
-Python Packages
-    Seaborn
-    Jupyter
+The assignment requirements are as follows: <br>
 
-Tasks:
-30% - Description
-    Create a git repository and make it available online that contains all of your work for this project
-    Create a jupyter notement that descibes the dataset in 
-        descriptive statistics
-        plots to describe dataset
+“Create a Jupyter notebook investigating the tips dataset that it broken down into three parts as follows:<br>
 
-30% - Regression
-    In Juptyer notebook, add a section that: 
-        discusses and analyses the relationship between the total bill and tip amount
-"Is there a relationship between the total bill and the tip amount"
+1.	Description of the tips dataset <br>
 
-40% - Analyse
-    In Juptyer notebook, analysi relationships between variables (this can be all varioables or a subset)
+2.	Regression analysis of the relationship between total bill and tip <br>
 
-To do: 
-1 - README - ongoing
-2. Summary of my work
-3 - Instructions as to how to run the jupyter and web application
-    Needs to be well laid out, clear and concise and easily understood and run.
+3.	Analysis of a subset of variables with the dataset.<br>
 
-4 - Jupyter Notebook - done
-30% - Description
-5. Create a git repository - done
-6 - Descriptive Statistics
-7 - Plots to describe the dataset
-8 - Regression - Discuss and analyse whether there is a relaitonship between the total bill and tip amount - Good analysis of the relationship between the total bill with good explanations of the analysis
-9 - Analyse the variables within the notebook
-10 - Relationships between the variables
-11 - Interesting relationships highlighted and discussed
+#### Prerequisites for the Projects:
+
+To compile the notebook the following packages were installed on my computer:<br>
+
+• The full Anaconda package from: https://www.anaconda.com <br>
+The following packages are used in this repository, all of which can be found in the Anaconda package:<br>
+
+• Jupyter notebook - Installed from: https://anaconda.org/anaconda/jupyter<br>
+• numpy package - Installed from: https://anaconda.org/anaconda/numpy<br>
+• seaborn - Installed from: https://anaconda.org/anaconda/seaborn<br>
+
+Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+• matplotlib package - - Installed from: https://anaconda.org/anaconda/matplotlib
+
+#### Running Jupyter:
+
+Jupyter is a Python package, installed on your machine that does not require importation from Python packages. It is commonly run from the machine command line. 
+
+##### How it works:
+
+Once called from the command, the Jupyter Notebook will open a tab on the machine's internet browser. This enables you to access the Jupyter package. If the new tab does not appear, copy the url given on the command line and paste that in the address bar of the internet browser. It is important to note that whatever folder Jupyter is opened in.<br>
+
+To begin using Jupyter, a new file can be opened from the web page. There are two main modes in the Jupyter Notebook: edit and command. <br>
+These enable you to input and run code to generate outputs.
+
+Jupyter notebook operates in a sequential mode meaning that the notebook remembers the sequence in which commands were run. This is important when the notebook is run as the notebook will not bring in any commands that have not yet run as part of the sequence. To clear the historical input sequence in the notebook, users should ensure that the notebook is saved by the Save and Checkpoint function. Once saved, the user can us the "Restart and Clear Output" function within the Widget tab to clear all computations. This allows the notebook to run for the beginning through to the end.<br>
+
+Jupyter contains an inbuilt text editor which allows you to document the notebook effectively. This includes using different fonts and text size, hyperlinks and inputting tables among others.<br>
+
+**Importing Images in Jupyter**:
+
+Images in the Jupyter Notebook are brought in through a URL. The images are stored in GitHub in the img folder. This ensures that the project will still be accessible should the original URL or source change. This only image used in the notebook is
+•	GMIT Logo: (https://raw.githubusercontent.com/martinaobrien/numpy-random/master/img/gmit_logo.jpg)
+
+
+**Inserting Internal Hyperlinks**
+
+The table of contents is also interactive in the tips dataset assignment Jupyter notebook through adding hyperlinks. 
+This was achieved by adding HTML tags in the markdown in the Jupyter notebook: 
+
+##### How to use:
+The notebook will be displayed automatically if the requisites named above are installed. A caveat to be mindful of within Jupyter Notebook is that on occasion it won’t display automatically. To override this and render the notebook use the following link and past the url into the following website: https://nbviewer.jupyter.org/
+
+#### References:
+
+https://seaborn.pydata.org/tutorial/categorical.html <br>
+https://sebastianraschka.com/Articles/2014_ipython_internal_links.html <br> 
+https://www.datacamp.com/community/tutorials/seaborn-python-tutorial<br>
+
+A list of specific references is contained within the Jupyter Notebook.
+
+#### License:
+The repository is for use within the GNU General Public License 3.0.
+To find more on the license: https://www.gnu.org/licenses/gpl-3.0.en.html
+
+
 
