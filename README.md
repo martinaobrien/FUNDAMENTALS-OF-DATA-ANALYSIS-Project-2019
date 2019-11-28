@@ -50,6 +50,7 @@ Jupyter contains an inbuilt text editor which allows you to document the noteboo
 **Importing Images in Jupyter**:
 
 Images in the Jupyter Notebook are brought in through a URL. The images are stored in GitHub in the img folder. This ensures that the project will still be accessible should the original URL or source change. This only image used in the notebook is
+
 •	GMIT Logo: (https://raw.githubusercontent.com/martinaobrien/numpy-random/master/img/gmit_logo.jpg)
 
 
